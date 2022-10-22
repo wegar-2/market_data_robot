@@ -1,2 +1,6 @@
 # market_data_robot
-Schedule regular dispatch of freely available market data via email
+
+This repo contains code for fetching time series from Stooq and dispatching them via email that contains CSV 
+file and PNG plot of prices as the attachment. 
+
+Cf. [file](./run_email_dispatch.py) to see how this can be done. 
